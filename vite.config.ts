@@ -16,8 +16,8 @@ export default defineConfig({
       includeAssets: ['icons/*.png', 'icons/*.svg'],
       manifest: {
         id: './',
-        name: 'Rodinha',
-        short_name: 'Rodinha',
+        name: 'Toca Aí',
+        short_name: 'Toca Aí',
         description: 'Aprender violão do zero: acordes, batidas e tocar junto.',
         lang: 'pt-BR',
         start_url: './',

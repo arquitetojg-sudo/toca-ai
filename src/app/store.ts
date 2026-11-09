@@ -16,6 +16,7 @@ export interface Data {
   minutes: Record<string, number>;
 }
 
+// Chave antiga mantida de propósito: o progresso salvo no celular continua valendo.
 const KEY = 'rodinha:v1';
 const DEFAULT: Data = { done: {}, checks: {}, bpm: 60, click: true, strumSound: true, minutes: {} };
 
